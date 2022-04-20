@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.123);
+
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header > h1 {
+    padding-top: 300px;
+    padding-bottom: 15px;
+    
+}
+header > p {
+    padding-bottom: 300px;
+    
+}
+header#img01 {
+    background-image: url(imagens/new-york.jpg);
+    background-position: left center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}   
+a:hover {
+    text-decoration: underline;
+    
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-attachment: fixed;
+}
+section > h2 {
+    text-align: center;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+section > p {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 1.3em;
+
+}
+section.normal {
+    background-color: darkgray;
+}
+section.imagem {
+    background-color: black;
+    color: white;
+}
+section#img02 {
+    background-image: url(imagens/lisbon-portugal.jpg);
+    background-position: left center;
+    background-size: cover;
+}
+section#img03 {
+    background-image: url(imagens/big-ben.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
