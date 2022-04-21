@@ -99,19 +99,19 @@ section.imagem {
     color: white;
 }
 section#img01 {
-    min-height: 50vh;
+    min-height: 100vh;
     background-image: url(imagens/new-york.02.png);
     background-position: left center;
     background-size: cover;
 }
 section#img02 {
-    min-height: 50vh;
+    min-height: 100vh;
     background-image: url(imagens/lisbon-portugal.02.png);
     background-position: left center;
     background-size: cover;
 }
 section#img03 {
-    min-height: 50vh;
+    min-height: 100vh;
     background-image: url(imagens/big-ben.02.png);
     background-position: center center;
     background-size: cover;
